@@ -1,4 +1,7 @@
-{
+{   "author": {
+        "name": "Nwakwoke Nnaemeka Patrick",
+        "email": "patricknwak@gmail.com"
+    },
     "private": true,
     "scripts": {
         "start": "webpack-dev-server --mode development",
