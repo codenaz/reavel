@@ -1,5 +1,5 @@
 # Reavel
-Develop, build and Run react and laravel on one server without using laravel mix and react-scripts
+Develop, build and Run react + laravel on one server without using laravel mix
 
 ## Details
 This setup contains Laravel 5.8.*(check in composer.json) and react 16.8.4(check in package.json)
@@ -23,7 +23,7 @@ Use the command ```npm start``` to compile react.
 This setup makes use of HMR so the App will be updated whenever you make changes to the react/javascript files
 
 ## Start Laravel
-You can start up your php server with ```php artisan serve``` and go to http://localhost:8000 on your browser
+You can start up your php server with ```php artisan serve``` then go to http://localhost:8000 on your browser
 
 Note: Make sure you run ```npm start``` before firing up your php development server so that laravel can have access to the compiled react/javascript files.
 
